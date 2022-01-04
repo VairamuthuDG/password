@@ -1,0 +1,55 @@
+body{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height:100vh;
+}
+
+.pass-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    height:400px;
+    width:400px;
+    background-color: cadetblue;
+    color:indigo;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.pass-controls{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+    height:200px;
+    width:340px;
+}
+
+.pass-length,.upper,.lower,.number,.symbol{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button{
+    font-size: larger;
+    background-color: maroon;
+    color:mintcream;
+    border-radius: 5px;
+}
+
+.pass-head{
+    display: block;
+    width:90%;
+    height:50px;
+    background-color: orange;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
