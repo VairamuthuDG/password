@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pass.css" />
+    <script src ="pass.js" defer></script>
+</head>
+<body>
+    <div class="pass-container">
+        <div class="pass-head">
+            <span id="pass-id">This is new password</span>
+            
+        </div>
+            <div class="pass-controls">
+
+                <div class="pass-length"><label for="length">Password Length</label>
+                    <input id="length"  class='btn-len' type="number" min='4' max ='20'>
+                </div>
+                <div class="upper">
+                    <label for="len">Select UPPERCASE</label>
+                    <input id="upper"class='btn' type="checkbox">
+                </div>
+
+                <div class="lower">
+                    <label for="len">Select lowerCASE</label>
+                    <input id="lower"class='btn' type="checkbox">
+                </div>
+
+                <div class="number">
+                    <label for="len">Select Number</label>
+                    <input id="number"class='btn' type="checkbox">
+                </div>
+
+                <div class="symbol">
+                    <label for="len">Select symbols</label>
+                    <input id="symbol"class='btn' type="checkbox">
+                </div>
+
+
+            </div>
+        
+            <button class="btn-generate">Generate</button>
+    </div>
+
+    
+</body>
+</html>
